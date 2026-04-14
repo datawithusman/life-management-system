@@ -1,0 +1,294 @@
+.main-dashboard {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 28px;
+  color: #333;
+  margin: 0 0 30px 0;
+  font-weight: 600;
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.overview-card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.overview-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.overview-card h3 {
+  margin: 15px 0 10px 0;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.big-number {
+  font-size: 36px;
+  font-weight: bold;
+  color: #667eea;
+  margin: 15px 0;
+}
+
+.card-label {
+  color: #999;
+  font-size: 13px;
+  margin: 0;
+}
+
+.study-card {
+  border-top: 4px solid #4caf50;
+}
+
+.expense-card {
+  border-top: 4px solid #ff9800;
+}
+
+.task-card {
+  border-top: 4px solid #2196f3;
+}
+
+.islamic-card {
+  border-top: 4px solid #9c27b0;
+}
+
+.dashboard-section {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 18px;
+  color: #333;
+  margin: 0 0 20px 0;
+  font-weight: 600;
+}
+
+.goals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.goal-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.goal-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+.goal-subject {
+  font-weight: 600;
+  color: #333;
+}
+
+.goal-percentage {
+  color: #667eea;
+  font-weight: bold;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.3s;
+}
+
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  border-left: 4px solid #2196f3;
+}
+
+.task-title {
+  color: #333;
+  font-weight: 500;
+}
+
+.priority-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.priority-high {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.priority-medium {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.priority-low {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.events-list,
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.event-item,
+.course-item {
+  padding: 12px 15px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event-name,
+.course-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.event-location,
+.course-platform {
+  color: #999;
+  font-size: 13px;
+}
+
+.course-progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.progress-percentage {
+  color: #667eea;
+  font-weight: bold;
+}
+
+.health-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.health-item {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  border-left: 4px solid #4caf50;
+}
+
+.health-item h4 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 14px;
+}
+
+.health-item p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 13px;
+}
+
+.alert-section {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  border: 2px solid #ff9800;
+}
+
+.action-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.action-item {
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  color: #f57c00;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .overview-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .page-title {
+    font-size: 22px;
+  }
+
+  .section-title {
+    font-size: 16px;
+  }
+
+  .big-number {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .overview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-section {
+    padding: 15px;
+  }
+
+  .goal-info {
+    width: 120px;
+  }
+}
