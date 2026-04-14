@@ -1,0 +1,1 @@
+{\n  \"name\": \"life-management-system-frontend\",\n  \"version\": \"1.0.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"react\": \"^17.0.2\",\n    \"@mui/material\": \"^5.2.0\",\n    \"redux\": \"^4.1.0\",\n    \"recharts\": \"^2.1.0\"\n  }\n}
